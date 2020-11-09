@@ -5,6 +5,12 @@ const Portfolio = () => {
 
   const projects = [
     {
+      name: 'mydigilib',
+      description: 'Full Stack Mern Project',
+      link: 'https://whispering-forest-25290.herokuapp.com/',
+      repo: 'https://github.com/essennejaye/bookworms-bibliography'
+    },
+    {
       name: 'my-schtick-kick',
       description: 'Group Project: \nJavascript, Node, Express \nSequelize ORM, Bootstrap',
       link: 'https://fathomless-waters-65385.herokuapp.com/',
@@ -34,7 +40,6 @@ const Portfolio = () => {
       link: 'https://essennejaye.github.io/coder-calender',
       repo: 'https://github.com/essennejaye/coder-calender'
     },
-
   ];
   return (
     <div>
