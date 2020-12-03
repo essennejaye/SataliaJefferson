@@ -17,9 +17,6 @@ function App() {
     {
       name: 'resume'
     },
-    {
-      name: 'contact'
-    },
   ])
   const [currentPage, setCurrentPage] = useState(pages[0]);
 

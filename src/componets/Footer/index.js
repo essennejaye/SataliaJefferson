@@ -5,7 +5,7 @@ const Footer = () => {
   const links = [
     {
       name: 'fab fa-linkedin',
-      linkUrl: 'http://www.linkedin.com/in/satalia-n-jefferson-87037a114/'
+      linkUrl: 'http://www.linkedin.com/in/satalia-n-jefferson'
     },
     {
       name: 'fab fa-github-square',
