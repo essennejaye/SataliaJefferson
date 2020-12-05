@@ -14,10 +14,11 @@ const Resume = () => {
           <li>CSS</li>
           <li>JavaScript</li>
           <li>jQuery</li>
-          <li>responsive design</li>
+          <li>Responsive Design</li>
           <li>React</li>
           <li>Bootstrap</li>
           <li>Bulma</li>
+          <li>Apollo</li>
         </ul>
         <h3>Back-end Proficiencies</h3>
         <ul className="skills">
@@ -26,6 +27,7 @@ const Resume = () => {
           <li>Express</li>
           <li>MySQL, Sequelize</li>
           <li>MongoDB, Mongoose</li>
+          <li>GraphQl</li>
         </ul>
       </div>
     </section>

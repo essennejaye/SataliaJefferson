@@ -245,7 +245,7 @@ p {
     justify-content: center;
   }
   header nav ul {
-    margin-top: 20px;
+    margin-top: 15px;
     width: 100%;
     justify-content: center;
     display: flex;
@@ -260,9 +260,6 @@ p {
     justify-content: center;
     padding: 10px;
   }
-  .text-block, .hide{
-    display: visible;
-  }
   .text-block p {
     font-size: 10px;
   }
@@ -276,7 +273,7 @@ p {
   .project-img img {
     width: 100%;
     object-fit: contain;
-    height: 30vh;
+    height: 35vh;
   }
   ul.skills li {
     list-style-type: none;
