@@ -21,7 +21,7 @@ const Pages = ({ currentPage }) => {
   return (
     <div>
       {/* <PageSelected> {renderPage()} </PageSelected> */}
-      {renderPage()};
+      {renderPage()}
     </div>
   )
 }

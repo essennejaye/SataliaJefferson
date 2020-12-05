@@ -13,7 +13,8 @@ const Footer = () => {
     }
   ]
   return (
-    <footer className='section-container'>
+    <footer className='section-container footer'>
+    <p>Essennejaye 2020</p>
       {links.map(link => (
         <a href={link.linkUrl} key={link.name} target='_blank' rel='noopener noreferrer'><i className={`img ${link.name}`}></i></a>
       )
