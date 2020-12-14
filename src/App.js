@@ -12,7 +12,7 @@ function App() {
       name: 'about'
     },
     {
-      name: 'portfolio'
+      name: 'projects'
     },
     {
       name: 'resume'

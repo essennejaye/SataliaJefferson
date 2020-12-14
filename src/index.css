@@ -11,37 +11,40 @@
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html
+ {
   color: var(--secondary);
   font-family: Arial, Helvetica, sans-serif;
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /* make full page background image */
 
 .background-image {
   position: relative;
-  height: 100%;
+  min-height: 100vh;
   width: 100%;
 }
 
 .background-image::after {
   content: "";
-  background-image: url("./images/Orange-Background-Wallpaper-HD-16464.png");
+  background-image: url("./assets/images/Orange-Background-Wallpaper-HD-16464.png");
   background-repeat: repeat;
   position: absolute;
   top: 0px;
   left: 0px;
   right: 0px;
   bottom: 0px;
-  opacity: .1;
+  opacity: 0.1;
   background-size: 42px;
   z-index: -1;
 }
 
 /* style header and footer sections, make header sticky */
 
-header, footer {
+header,
+footer {
   display: flex;
   background: var(--primary);
   padding: 20px 35px;
@@ -99,9 +102,11 @@ nav li {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px;
+  /* padding: 20px; */
   width: 100%;
   margin: 20px auto 35px auto;
+  /* min-height: 100vh; */
+  /* align-items: end; */
 }
 
 /* "brand statement" */
@@ -109,12 +114,14 @@ nav li {
 .about-container {
   width: 65%;
   padding: 15px;
+  height: fit-content;
 }
 
 .about-container p {
   font-size: 24px;
   font-weight: 400;
   text-align: left;
+  /* margin-top: 90px; */
 }
 
 /* style about picture */
@@ -125,12 +132,45 @@ nav li {
   height: 400px;
   border-radius: 10px;
 }
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  padding: 20px;
+  border-bottom: 1px solid var(--primary);
+  border-top: 1px solid var(--primary);
+
+}
+.skill-container h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  color: var(--secondary);
+  
+}
+ul.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: var(--primary);
+  list-style-type: none;
+}
+ul.skills img {
+  display: flex;
+  width: auto;
+  height: 80px;
+  padding: 0px 10px;
+  margin-top: 30px;
+}
 .text-quote {
   width: 100%;
-  font-size: 26px;
+  font-size: 28px;
   font-style: italic;
-  margin: 30px;
-  text-align: start;
+  margin: auto;
+  text-align: center;
+  color: var(--primary);
 }
 
 /* project screenshot section */
@@ -139,82 +179,85 @@ nav li {
   display: flex;
   flex-wrap: wrap;
   padding: 15px;
-  justify-content: center;
-  width: 100%;
+  justify-content: space-around;
+  /* width: 100%; */
 }
 
-.project-img {
+/* .project-img {
   position: relative;
-}
+} */
 
 .project-img img {
-  min-width: 100%;
-  height: 40vh;
-  object-fit: cover;
+  width: 500px;
   padding: 5px;
   border-radius: 15px;
-}
-
-.project-img:hover {
-  padding: 0;
   opacity: 0.8;
-  border: solid 1px var(--primary);
-  border-radius: 10px;
-  box-shadow: 0 0 10px var(--tertiary);
 }
 
-.project-img:hover>.hide {
+.project-img img:hover {
+  opacity: 1.0;
+  border: solid 1px var(--primary); 
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--primary);
+}
+
+/* .project-img:hover {
   display: block;
 }
-
+ */
 /* text box for project images */
 
-.text-block, .hide {
-  display: none;
-  position: absolute;
-  bottom: 38px;
-  right: 20px;
-  background: var(--secondary);
-  color: var(--tertiary);
+.text-block
+{
+  color: var(--secondary);
   padding: 5px 15px;
+  width: 500px;
   text-align: center;
-  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .text-block p {
-  font-size: 14px;
   white-space: pre-line;
+  font-size: 22px;
 }
 
 a {
-  color: var(--tertiary);
+  color: var(--secondary);
 }
 
-.text-block a {
-  color: var(--contrast);
+.text-block a p {
+  margin: 0px 15px;
+  text-decoration: none;
+  font-weight: bold;
 }
-
+.fab .fas{
+  font-size: 20px;
+}
+button {
+  background-color: var(--primary);
+  border-radius: 5px;
+  padding: 5px 0px;
+  margin: 10px 0px;
+  width: 95px;
+ 
+}
+/* 
 .my-2 h2 {
   margin-bottom: 30px;
   font-weight: 500;
 }
-
-ul.skills {
-  line-height: 2rem;
-  font-size: large;
-}
-
-ul.skills li {
-  list-style-type: circle;
-  color: var(--tertiary);
-}
+ */
 
 .footer {
   text-align: center;
-  font-size: 50px;
+  font-size: 35px;
   margin-bottom: 0px;
-  padding-bottom: 50px;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  /* display: block; */
+  position: relative;
 }
 
 p {
@@ -287,7 +330,8 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  header, footer {
+  header,
+  footer {
     position: relative;
   }
   .profile-pic {
