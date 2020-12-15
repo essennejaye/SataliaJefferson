@@ -4,7 +4,6 @@ const Project = ({ project }) => {
   const { name, description, link, repo } = project;
 
   return (
-
     <div className='project-container' key={name}>
       <div className='project-img'>
         <img

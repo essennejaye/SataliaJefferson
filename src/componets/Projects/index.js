@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../Project';
+import ScrollTopArrow from '../ScrollTopArrow';
 
 const Projects = () => {
 
@@ -51,6 +52,7 @@ const Projects = () => {
           />
         ))}
       </div>
+      <ScrollTopArrow />
     </div>
   )
 }

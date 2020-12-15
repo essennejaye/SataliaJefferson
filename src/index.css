@@ -188,6 +188,9 @@ ul.skills img {
   padding-top:20px;
   border-bottom: 1px solid var(--primary);
 }
+.project-container:last-child:after {
+  border-bottom: none;
+}
 .project-container:nth-child(even) {
   flex-direction: row-reverse;
 }
@@ -242,6 +245,31 @@ a.button-link:hover{
 button:hover {
   background-color: white;
 }
+.scrollTop {
+  position: fixed; 
+  width: 100%;
+  bottom: 20px;
+  align-items: center;
+  height: 40px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+}
+.scrollTop:hover{
+  opacity: 1;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
 /* resume */
 iframe {
   display: block;
