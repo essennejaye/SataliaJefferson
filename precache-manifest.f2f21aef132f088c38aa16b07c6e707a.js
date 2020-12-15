@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6570731877ccef1fb6b20526baa888e4",
+    "revision": "4367c6eb43ccb43fc6705c47ae2a8557",
     "url": "/webdev-showcase/index.html"
   },
   {
-    "revision": "00a2d2b0488a06e78a07",
-    "url": "/webdev-showcase/static/css/main.51cc7dc0.chunk.css"
+    "revision": "a7237cb51676e09d967a",
+    "url": "/webdev-showcase/static/css/main.e357bbb7.chunk.css"
   },
   {
     "revision": "9c200994c3972d03ce14",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/webdev-showcase/static/js/2.40f19e01.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "00a2d2b0488a06e78a07",
-    "url": "/webdev-showcase/static/js/main.75839ef9.chunk.js"
+    "revision": "a7237cb51676e09d967a",
+    "url": "/webdev-showcase/static/js/main.a6fd6f3b.chunk.js"
   },
   {
     "revision": "f74a72a260194e30a88d",
@@ -32,12 +32,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/webdev-showcase/static/media/ProfilePic.0805a345.jpg"
   },
   {
+    "revision": "bae872e028d03b71cd325265d155a3d0",
+    "url": "/webdev-showcase/static/media/bootstrap-logo.bae872e0.png"
+  },
+  {
+    "revision": "b19a870070d6641470f9e80734a011e3",
+    "url": "/webdev-showcase/static/media/github_icon.b19a8700.png"
+  },
+  {
+    "revision": "d7ee9fab282e98e7d3c9d513e1a7d6d9",
+    "url": "/webdev-showcase/static/media/html-5-logo.d7ee9fab.png"
+  },
+  {
+    "revision": "cea96a5059e56a9c03bd8fd3f1262480",
+    "url": "/webdev-showcase/static/media/linkedin_icon.cea96a50.png"
+  },
+  {
     "revision": "5dc6d17f12a1e248bdf12736d0376a03",
     "url": "/webdev-showcase/static/media/my-schtick-kick.5dc6d17f.png"
   },
   {
     "revision": "99fbe7dadb74099d182a90e2db845ce6",
     "url": "/webdev-showcase/static/media/mydigilib.99fbe7da.png"
+  },
+  {
+    "revision": "6ca02c9b7069582ce35cf477289274c6",
+    "url": "/webdev-showcase/static/media/responsive-web-design.6ca02c9b.png"
   },
   {
     "revision": "afe9466b71982d547d38f064b02f3f83",
@@ -50,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "88dcc59d571cf45a95cf636b79b0bc5c",
     "url": "/webdev-showcase/static/media/web-dev-op-ed.88dcc59d.png"
+  },
+  {
+    "revision": "f0d7e81d6313afb660fba13df29dfdec",
+    "url": "/webdev-showcase/static/media/webdev_ss1.f0d7e81d.png"
   },
   {
     "revision": "b9f273909fa305cc2280a6c326a05e2f",
