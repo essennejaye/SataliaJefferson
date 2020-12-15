@@ -15,10 +15,10 @@ const Project = ({ project }) => {
       <div className='text-block '>
         <p>{description}</p>
         <button>
-          <a href={link} target='_blank' rel='noopener noreferrer'>Website</a>
+          <a href={link} target='_blank' rel='noopener noreferrer'className='button-link'>Website</a>
         </button>
         <button>
-          <a href={repo} target='_blank' rel='noopener noreferrer'><i className='fab fa-github'></i></a>
+          <a href={repo} target='_blank' rel='noopener noreferrer' className='button-link'><i className='fab fa-github fa-2x'></i></a>
         </button>
       </div>
 

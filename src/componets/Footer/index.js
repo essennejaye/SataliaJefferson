@@ -17,17 +17,20 @@ const Footer = () => {
     },
     {
       name: 'far fa-file',
-      linkUrl: 'https://essennejaye.github.io/webdev-showcase/SNJ_resume_2020.pdf'
+      linkUrl: 'https://drive.google.com/file/d/18MynqDzX489JtVmAh6q-bdxv1qxPY2gu/preview'
     }
   ]
   return (
     <footer className='footer'>
-    <p>© 2020 Essennejaye</p>
-      {links.map(link => (
-        <a href={link.linkUrl} key={link.name} target='_blank' rel='noopener noreferrer'><i className={`img ${link.name}`}></i></a>
-      )
-      )}
-
+      <div>
+        <p>© 2020 Essennejaye</p>
+      </div>
+      <div className='links'>
+        {links.map(link => (
+          <a href={link.linkUrl} key={link.name} target='_blank' rel='noopener noreferrer'><i className={`img ${link.name}`}></i></a>
+        )
+        )}
+      </div>
     </footer>
   )
 }
