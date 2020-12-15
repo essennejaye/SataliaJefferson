@@ -17,7 +17,7 @@ const Footer = () => {
     },
     {
       name: 'far fa-file',
-      linkUrl: 'SNJ_resume_2020.pdf'
+      linkUrl: 'https://essennejaye.github.io/webdev-showcase/SNJ_resume_2020.pdf'
     }
   ]
   return (

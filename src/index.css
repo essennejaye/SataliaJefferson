@@ -244,12 +244,18 @@ button {
   width: 95px;
  
 }
-/* 
-.my-2 h2 {
-  margin-bottom: 30px;
-  font-weight: 500;
+
+.my-2 {
+position: relative;
 }
- */
+
+iframe {
+  display: block;
+  border: none;
+  height: 100vh;
+  width: 100vw;
+}
+
 
 .footer {
   text-align: center;
@@ -310,9 +316,6 @@ p {
     font-size: 16px;
     font-weight: bold;
   }
-  .my-2 {
-    margin: auto 15px;
-  }
   .project-img img {
     width: 100%;
     object-fit: contain;
@@ -326,6 +329,11 @@ p {
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+  }
+  
+  iframe {
+    height: 82vh;
+    width: 90vw;
   }
 }
 
@@ -358,5 +366,9 @@ p {
   .about-container p {
     text-align: left;
     margin: auto;
+  }
+  iframe {
+    height: 60vh;
+    width: 90vw;
   }
 }
