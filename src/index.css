@@ -304,9 +304,6 @@ p {
   .text-block p {
     font-size: 14px;
   }
-  .text-block  {
-    border-bottom: 1px solid var(--primary);
-  }
   .project-img img {
     width: 100%;
     object-fit: contain;
