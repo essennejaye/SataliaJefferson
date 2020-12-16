@@ -8,8 +8,8 @@ const Projects = () => {
     {
       name: 'mydigilib',
       description: 'An node.js application to digitally catalog your home library. It performs a search for your book based on the ISBN. \n\nFull Stack Mern Project',
-      link: 'https://whispering-forest-25290.herokuapp.com/',
-      repo: 'https://github.com/essennejaye/bookworms-bibliography'
+      link: 'https://mydigilib.herokuapp.com/',
+      repo: 'https://github.com/essennejaye/mydigilib'
     },
     {
       name: 'my-schtick-kick',
@@ -20,7 +20,7 @@ const Projects = () => {
     {
       name: 'web-dev-op-ed',
       description: 'A CMS-style MVC blog site for web developers. \n\nJavascript, Node, Express \nSequelize ORM, Handlebars \nBootstrap',
-      link: 'https://fathomless-waters-65385.herokuapp.com/',
+      link: 'https://ancient-dawn-54812.herokuapp.com/',
       repo: 'https://github.com/essennejaye/dev-op'
     },
     {
