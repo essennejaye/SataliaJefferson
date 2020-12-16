@@ -11,7 +11,7 @@ const Nav = (props) => {
     <nav className='nav-bar'>
       <ul>
         {pages.map((page) => (
-          <li className={`mx-5 ${currentPage.name === page.name
+          <li className={` ${currentPage.name === page.name
             && 'navActive'
             }`}
             key={page.name}>
