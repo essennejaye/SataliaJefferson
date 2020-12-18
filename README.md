@@ -42,4 +42,6 @@ const Nav = (props) => {
 export default Nav;
 ```
 ## Screenshot
-![](src/images/webdev_ss1.png)
+![](src/assets/images/webdev_ss1.png)
+![](src/assets/images/webdev_ss2.png)
+![](src/assets/images/webdev_ss3.png)
