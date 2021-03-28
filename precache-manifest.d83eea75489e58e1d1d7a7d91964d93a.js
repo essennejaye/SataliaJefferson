@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb02354fdeea0a717112de1ea2ffc84e",
+    "revision": "9a78b3f1364d073d28d9928844e6ed6d",
     "url": "/webdev-showcase/index.html"
   },
   {
-    "revision": "a95716da6937a7d99cda",
+    "revision": "43bd268dfaaed5c7696f",
     "url": "/webdev-showcase/static/css/main.59a164f4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/webdev-showcase/static/js/2.c3beacbb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a95716da6937a7d99cda",
-    "url": "/webdev-showcase/static/js/main.1c47cf55.chunk.js"
+    "revision": "43bd268dfaaed5c7696f",
+    "url": "/webdev-showcase/static/js/main.3956cf4d.chunk.js"
   },
   {
     "revision": "f74a72a260194e30a88d",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/webdev-showcase/static/media/my-schtick-kick.5dc6d17f.png"
   },
   {
-    "revision": "99fbe7dadb74099d182a90e2db845ce6",
-    "url": "/webdev-showcase/static/media/mydigilib.99fbe7da.png"
+    "revision": "01fddcc86a6d9e3bfd792e9245893867",
+    "url": "/webdev-showcase/static/media/mydigilib.01fddcc8.png"
   },
   {
     "revision": "6ca02c9b7069582ce35cf477289274c6",
